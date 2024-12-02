@@ -1,0 +1,706 @@
+CRITICAL - 2024-11-26 00:24:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "logos web940x492-06 (1).png"
+[Method: GET, Route: uploads/logos%20web940x492-06%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/logos web940x492-06 (1).png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/logos web940x492-06 (1).png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:24:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "logos web940x492-06 (1).png"
+[Method: GET, Route: uploads/logos%20web940x492-06%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/logos web940x492-06 (1).png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/logos web940x492-06 (1).png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:24:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "logos web940x492-06 (1).png"
+[Method: GET, Route: uploads/logos%20web940x492-06%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/logos web940x492-06 (1).png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/logos web940x492-06 (1).png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:24:54 --> Error: Class "App\Controllers\ArbolesModel" not found
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Controllers\AmigosController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:25:24 --> Error: Class "App\Controllers\ArbolesModel" not found
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Controllers\AmigosController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:28:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "logos web940x492-06 (1).png"
+[Method: GET, Route: uploads/logos%20web940x492-06%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/logos web940x492-06 (1).png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/logos web940x492-06 (1).png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:32:10 --> ErrorException: Undefined array key "especie_id"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 68.
+ 1 APPPATH\Views\amigos\arboles.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie_id"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(45): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:32:48 --> ErrorException: Undefined array key "especie_id"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 68.
+ 1 APPPATH\Views\amigos\arboles.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie_id"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(45): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 00:33:13 --> ErrorException: Undefined array key "especie_id"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 68.
+ 1 APPPATH\Views\amigos\arboles.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie_id"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(45): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:10:35 --> ErrorException: Undefined array key "especie_id"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 68.
+ 1 APPPATH\Views\amigos\arboles.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie_id"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(40): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:11:02 --> ErrorException: Undefined array key "especie_id"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 52.
+ 1 APPPATH\Views\amigos\arboles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie_id"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(40): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:32:25 --> Error: Class "App\Controllers\ActualizacionesModel" not found
+[Method: POST, Route: amigos/agregarActualizacion]
+in APPPATH\Controllers\AmigosController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:35:33 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerUltimaActualizacion
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(47): CodeIgniter\Model->__call('obtenerUltimaActualizacion', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-26 02:38:44 --> mysqli_sql_exception: Column 'ubicacion_geografica' cannot be null in C:\xampp\htdocs\MyTreesCode\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\MyTreesCode\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 C:\xampp\htdocs\MyTreesCode\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\MyTreesCode\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\MyTreesCode\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\MyTreesCode\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\MyTreesCode\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\MyTreesCode\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\MyTreesCode\app\Controllers\AmigosController.php(100): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+#9 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+#10 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\MyTreesCode\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\MyTreesCode\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\MyTreesCode\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-26 02:38:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'ubicacion_geografica' cannot be null
+[Method: POST, Route: amigos/agregarActualizacion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :ubicacion_geografica:, :estado:, :fecha_actualizacion:, :foto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AmigosController.php(100): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:38:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'ubicacion_geografica' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'2\', NULL, NULL, \'2024-11-26 02:38:44\', \'uploads/1732588724_358315f4cf34635f86e6.jpeg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'2\', NULL, NULL, \'2024-11-26 02:38:44\', \'uploads/1732588724_358315f4cf34635f86e6.jpeg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :ubicacion_geografica:, :estado:, :fecha_actualizacion:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AmigosController.php(100): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:38:44 --> [Caused by] mysqli_sql_exception: Column 'ubicacion_geografica' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'2\', NULL, NULL, \'2024-11-26 02:38:44\', \'uploads/1732588724_358315f4cf34635f86e6.jpeg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'2\', NULL, NULL, \'2024-11-26 02:38:44\', \'uploads/1732588724_358315f4cf34635f86e6.jpeg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'2\', NULL, NULL, \'2024-11-26 02:38:44\', \'uploads/1732588724_358315f4cf34635f86e6.jpeg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `ubicacion_geografica`, `estado`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :ubicacion_geografica:, :estado:, :fecha_actualizacion:, :foto:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AmigosController.php(100): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-26 02:47:06 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\MyTreesCode\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\MyTreesCode\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 C:\xampp\htdocs\MyTreesCode\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\MyTreesCode\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\MyTreesCode\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\MyTreesCode\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\MyTreesCode\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\MyTreesCode\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\MyTreesCode\app\Controllers\AmigosController.php(92): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+#9 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+#10 C:\xampp\htdocs\MyTreesCode\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\MyTreesCode\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\MyTreesCode\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\MyTreesCode\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-26 02:47:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'foto' cannot be null
+[Method: POST, Route: amigos/agregarActualizacion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :estado:, :ubicacion_geografica:, :fecha_actualizacion:, :foto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AmigosController.php(92): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:47:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'3\', \'Vendido\', \'san carlos\', \'2024-11-26 02:47:06\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'3\', \'Vendido\', \'san carlos\', \'2024-11-26 02:47:06\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :estado:, :ubicacion_geografica:, :fecha_actualizacion:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AmigosController.php(92): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:47:06 --> [Caused by] mysqli_sql_exception: Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'3\', \'Vendido\', \'san carlos\', \'2024-11-26 02:47:06\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'3\', \'Vendido\', \'san carlos\', \'2024-11-26 02:47:06\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (\'14\', \'14\', \'7\', \'3\', \'Vendido\', \'san carlos\', \'2024-11-26 02:47:06\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `actualizaciones` (`arbol_id`, `amigo_id`, `especie_id`, `tamanio`, `estado`, `ubicacion_geografica`, `fecha_actualizacion`, `foto`) VALUES (:arbol_id:, :amigo_id:, :especie_id:, :tamanio:, :estado:, :ubicacion_geografica:, :fecha_actualizacion:, :foto:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AmigosController.php(92): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->agregarActualizacion()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 02:58:09 --> ErrorException: Undefined array key "historial"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 105.
+ 1 APPPATH\Views\amigos\arboles.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "historial"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(61): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:00:56 --> ErrorException: Undefined array key "historial"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 105.
+ 1 APPPATH\Views\amigos\arboles.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "historial"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(61): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:01:29 --> ErrorException: Undefined array key "historial"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 105.
+ 1 APPPATH\Views\amigos\arboles.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "historial"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(61): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:04:09 --> ErrorException: Undefined array key "historial"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 105.
+ 1 APPPATH\Views\amigos\arboles.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "historial"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(61): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:21:33 --> ErrorException: Undefined array key "tamanio"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 37.
+ 1 APPPATH\Views\amigos\arboles.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tamanio"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(54): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:23:05 --> ErrorException: Undefined array key "historial"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 105.
+ 1 APPPATH\Views\amigos\arboles.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "historial"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 5 APPPATH\Controllers\AmigosController.php(61): view('amigos/arboles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:32:13 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Views\amigos\arboles.php on line 167.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 3 APPPATH\Controllers\AmigosController.php(64): view('amigos/arboles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:37:36 --> BadMethodCallException: Call to undefined method App\Models\ArbolesModel::obtenerUltimaActualizacion
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(46): CodeIgniter\Model->__call('obtenerUltimaActualizacion', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:37:51 --> BadMethodCallException: Call to undefined method App\Models\ArbolesModel::obtenerUltimaActualizacion
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(46): CodeIgniter\Model->__call('obtenerUltimaActualizacion', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:37:56 --> BadMethodCallException: Call to undefined method App\Models\ArbolesModel::obtenerUltimaActualizacion
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(46): CodeIgniter\Model->__call('obtenerUltimaActualizacion', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:39:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "includes/footer.php"
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('includes/footer', [], true)
+ 3 APPPATH\Views\amigos\arboles.php(156): view('includes/footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\arboles.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles', [], true)
+ 7 APPPATH\Controllers\AmigosController.php(64): view('amigos/arboles', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:40:54 --> BadMethodCallException: Call to undefined method App\Models\ArbolesModel::obtenerUltimaActualizacion
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(46): CodeIgniter\Model->__call('obtenerUltimaActualizacion', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:40:57 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorialPorArbol
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorialPorArbol', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:49:02 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorial
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorial', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:50:21 --> ParseError: syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+[Method: GET, Route: amigos/arboles/14]
+in APPPATH\Models\ActualizacionesModel.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\MyTreesCode\\app\\Models\\ActualizacionesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ActualizacionesModel')
+ 3 APPPATH\Controllers\AmigosController.php(40): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ActualizacionesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:50:59 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorialPorArbol
+[Method: GET, Route: amigos/actualizaciones/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\ActualizacionesController.php(30): CodeIgniter\Model->__call('obtenerHistorialPorArbol', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualizacionesController->index('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualizacionesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:51:21 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorial
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorial', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:51:23 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorial
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorial', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:51:25 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorial
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorial', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:51:26 --> BadMethodCallException: Call to undefined method App\Models\ActualizacionesModel::obtenerHistorial
+[Method: GET, Route: amigos/arboles/14]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AmigosController.php(60): CodeIgniter\Model->__call('obtenerHistorial', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AmigosController->verArboles('14')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AmigosController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:51:51 --> ErrorException: Undefined array key "especie"
+[Method: GET, Route: amigos/actualizaciones/14]
+in APPPATH\Views\amigos\actualizaciones.php on line 22.
+ 1 APPPATH\Views\amigos\actualizaciones.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/actualizaciones', [], true)
+ 5 APPPATH\Controllers\ActualizacionesController.php(33): view('amigos/actualizaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualizacionesController->index('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualizacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:53:18 --> ErrorException: Undefined array key "especie"
+[Method: GET, Route: amigos/actualizaciones/14]
+in APPPATH\Views\amigos\actualizaciones.php on line 22.
+ 1 APPPATH\Views\amigos\actualizaciones.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/actualizaciones', [], true)
+ 5 APPPATH\Controllers\ActualizacionesController.php(33): view('amigos/actualizaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualizacionesController->index('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualizacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:54:16 --> ErrorException: Undefined array key "especie"
+[Method: GET, Route: amigos/actualizaciones/14]
+in APPPATH\Views\amigos\actualizaciones.php on line 22.
+ 1 APPPATH\Views\amigos\actualizaciones.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "especie"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/actualizaciones', [], true)
+ 5 APPPATH\Controllers\ActualizacionesController.php(33): view('amigos/actualizaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualizacionesController->index('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualizacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 03:54:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "includes/footer.php"
+[Method: GET, Route: amigos/actualizaciones/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('includes/footer', [], true)
+ 3 APPPATH\Views\amigos\actualizaciones.php(94): view('includes/footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\amigos\\actualizaciones.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/actualizaciones', [], true)
+ 7 APPPATH\Controllers\ActualizacionesController.php(33): view('amigos/actualizaciones', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualizacionesController->index('14')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualizacionesController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 04:11:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/tablero.php"
+[Method: GET, Route: dashboardAdmin/tablero]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/tablero.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/tablero', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(27): view('dashboard/tablero', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 04:11:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/tablero.php"
+[Method: GET, Route: dashboardAdmin/tablero]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/tablero.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/tablero', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(27): view('dashboard/tablero', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 04:12:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/tablero.php"
+[Method: GET, Route: dashboardAdmin/tablero]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/tablero.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/tablero', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(27): view('dashboard/tablero', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 04:58:01 --> ErrorException: Cannot redeclare App\Models\DashboardModel::getAmigosRegistrados()
+[Method: GET, Route: dashboard/tableroAdmin]
+in APPPATH\Models\DashboardModel.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-26 04:59:07 --> ErrorException: Cannot redeclare App\Models\DashboardModel::getAmigosRegistrados()
+[Method: GET, Route: dashboard/tableroAdmin]
+in APPPATH\Models\DashboardModel.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-26 04:59:17 --> ErrorException: Cannot redeclare App\Models\DashboardModel::getAmigosRegistrados()
+[Method: GET, Route: dashboard/tableroAdmin]
+in APPPATH\Models\DashboardModel.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-26 05:00:21 --> ErrorException: Undefined array key "rol"
+[Method: GET, Route: dashboard/tableroAdmin]
+in APPPATH\Views\includes\header.php on line 53.
+ 1 APPPATH\Views\includes\header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rol"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\includes\\header.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('includes/header', [], true)
+ 5 APPPATH\Views\dashboard\tableroAdmin.php(1): view('includes/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\dashboard\\tableroAdmin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/tableroAdmin', [], true)
+ 9 APPPATH\Controllers\DashboardController.php(27): view('dashboard/tableroAdmin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->indexAdmin()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 05:05:11 --> ErrorException: Undefined array key "rol"
+[Method: GET, Route: dashboard/tableroAdmin]
+in APPPATH\Views\includes\header.php on line 53.
+ 1 APPPATH\Views\includes\header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rol"', 'C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\includes\\header.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('includes/header', [], true)
+ 5 APPPATH\Views\dashboard\tableroAdmin.php(1): view('includes/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\dashboard\\tableroAdmin.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/tableroAdmin', [], true)
+ 9 APPPATH\Controllers\DashboardController.php(26): view('dashboard/tableroAdmin', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->indexAdmin()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 05:23:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amigos/arboles_disponibles.php"
+[Method: GET, Route: amigos/arboles_disponibles]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amigos/arboles_disponibles.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles_disponibles', [], true)
+ 3 APPPATH\Controllers\ArbolesController.php(162): view('amigos/arboles_disponibles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArbolesController->arbolesDisponibles()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArbolesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 05:24:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amigos/arboles_disponibles.php"
+[Method: GET, Route: compraArboles/arboles_disponibles]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amigos/arboles_disponibles.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('amigos/arboles_disponibles', [], true)
+ 3 APPPATH\Controllers\ArbolesController.php(162): view('amigos/arboles_disponibles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArbolesController->arbolesDisponibles()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArbolesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 05:27:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "includes/footer.php"
+[Method: GET, Route: compraArboles/arboles_disponibles]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('includes/footer', [], true)
+ 3 APPPATH\Views\compraArboles\arboles_disponibles.php(40): view('includes/footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\MyTreesCode\\app\\Views\\compraArboles\\arboles_disponibles.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('compraArboles/arboles_disponibles', [], true)
+ 7 APPPATH\Controllers\ArbolesController.php(157): view('compraArboles/arboles_disponibles', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArbolesController->arbolesDisponibles()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArbolesController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 05:28:19 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+[Method: GET, Route: compraArboles/arboles_disponibles]
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\MyTreesCode\\system\\Session\\Handlers\\FileHandler.php', 74)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(74): ini_set('session.save_path', 'C:\\xampp\\htdocs\\MyTreesCode\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(697): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '127.0.0.1')
+ 4 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\Common.php(998): CodeIgniter\Config\BaseService::get('session')
+10 SYSTEMPATH\Common.php(971): service('session')
+11 SYSTEMPATH\CodeIgniter.php(1062): session()
+12 SYSTEMPATH\CodeIgniter.php(542): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
