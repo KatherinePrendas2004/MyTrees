@@ -23,7 +23,7 @@ class AmigosController extends BaseController
         $data['amigos'] = $amigosModel->obtenerAmigos();
 
         // Cargar la vista
-        return view('amigosAdmin/listaAmigos', $data);
+        return view('amigosAdmin/ListaAmigos', $data);
     }
     
     

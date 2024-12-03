@@ -59,11 +59,12 @@ class ArbolesModel extends Model
 
     public function obtenerArbolesDisponibles()
     {
-        return $this->select('arboles.id, especies.nombre_comercial AS especie, arboles.ubicacion_geografica, arboles.precio')
+        return $this->select('arboles.id, arboles.foto, especies.nombre_comercial AS especie, arboles.ubicacion_geografica, arboles.estado, arboles.precio')
                     ->join('especies', 'arboles.especie_id = especies.id')
-                    ->where('arboles.estado', 'Disponible')
+                    ->where('arboles.estado', 'disponible') // Nota: 'disponible' en minúscula para coincidir con tu base de datos
                     ->findAll();
     }
+
 
     public function agregarActualizacion($data)
     {
@@ -87,5 +88,7 @@ class ArbolesModel extends Model
     {
         return $this->delete($id);
     }
+
+
 }
 

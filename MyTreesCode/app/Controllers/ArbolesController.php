@@ -161,5 +161,45 @@ class ArbolesController extends BaseController
         // Cargar la vista con los datos
         return view('compraArboles/arboles_disponibles', ['arboles_disponibles' => $arbolesDisponibles]);
     }
+
+
+    public function confirmarCompra()
+    {
+        $session = session();
+
+        // Verificar que el usuario esté autenticado
+        if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
+            return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
+        }
+
+        $comprasModel = new \App\Models\ComprasModel();
+        $arbolesModel = new \App\Models\ArbolesModel();
+
+        // Capturar el ID del árbol
+        $arbolId = $this->request->getPost('arbol_id');
+
+        // Verificar si el árbol está disponible antes de procesar la compra
+        $arbol = $arbolesModel->find($arbolId);
+
+        if (!$arbol || $arbol['estado'] !== 'disponible') {
+            return redirect()->back()->with('error', 'El árbol ya no está disponible.');
+        }
+
+        // Datos para insertar en la tabla `compras`
+        $data = [
+            'arbol_id' => $arbolId,
+            'amigo_id' => $session->get('user_id'), // ID del usuario logueado
+        ];
+
+        if ($comprasModel->insert($data)) {
+            // Cambiar el estado del árbol a "vendido"
+            $arbolesModel->update($arbolId, ['estado' => 'vendido']);
+
+            return redirect()->to('/compraArboles/arboles_disponibles')->with('success', 'Compra realizada exitosamente.');
+        } else {
+            return redirect()->back()->with('error', 'Error al realizar la compra.');
+        }
+    }
+
 }
 
