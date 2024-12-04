@@ -88,7 +88,5 @@ class ArbolesModel extends Model
     {
         return $this->delete($id);
     }
-
-
 }
 

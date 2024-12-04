@@ -163,6 +163,29 @@ class ArbolesController extends BaseController
     }
 
 
+    public function confirmar()
+    {
+        $session = session();
+
+        // Verificar autenticación y rol
+        if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
+            return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
+        }
+
+        $comprasModel = new \App\Models\ComprasModel();
+
+        $data = [
+            'arbol_id' => $this->request->getPost('arbol_id'),
+            'amigo_id' => $session->get('user_id'), // ID del usuario logueado
+        ];
+
+        if ($comprasModel->insert($data)) {
+            return redirect()->to('/arbolesDisponibles')->with('success', 'Compra realizada exitosamente.');
+        } else {
+            return redirect()->back()->with('error', 'Error al realizar la compra.');
+        }
+    }
+
     public function confirmarCompra()
     {
         $session = session();
@@ -200,6 +223,28 @@ class ArbolesController extends BaseController
             return redirect()->back()->with('error', 'Error al realizar la compra.');
         }
     }
+
+    public function misArboles()
+    {
+        $session = session();
+
+        // Verificar que el usuario esté autenticado y sea del tipo "amigo"
+        if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
+            return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
+        }
+
+        $arbolesModel = new \App\Models\ArbolesModel();
+
+        // Obtener el ID del amigo (usuario actual)
+        $amigoId = $session->get('user_id');
+
+        // Obtener los árboles comprados por el amigo
+        $arbolesComprados = $arbolesModel->obtenerArbolesPorAmigo($amigoId);
+
+        // Cargar la vista con los datos
+        return view('compraArboles/mis_arboles', ['arboles_comprados' => $arbolesComprados]);
+    }
+
 
 }
 
