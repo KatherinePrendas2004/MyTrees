@@ -57,8 +57,8 @@ if (session_status() == PHP_SESSION_NONE) {
                             <li class="nav-item"><a class="nav-link" href="/arbolesAdmin/crud_arboles">Administrar Árboles</a></li>
                             <li class="nav-item"><a class="nav-link" href="/amigosAdmin/listaAmigos">Administrar Amigos</a></li>
                         <?php elseif ($_SESSION['user_role'] === 'amigo'): ?>
-                            <li class="nav-item"><a class="nav-link" href="/">Árboles</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/">Mis Árboles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/compraArboles/arboles_disponibles">Árboles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/compraArboles/mis_arboles">Mis Árboles</a></li>
                         <?php endif; ?>
                         <li class="nav-item"><a class="nav-link" href="/usuarios/logout">Cerrar sesión</a></li>
                     <?php else: ?>

@@ -65,6 +65,26 @@ class ArbolesModel extends Model
                     ->findAll();
     }
 
+    public function obtenerDetallesArbol($id, $amigoId)
+    {
+        return $this->select('arboles.id, arboles.foto, arboles.ubicacion_geografica, arboles.estado, arboles.precio, especies.nombre_comercial AS especie')
+                    ->join('especies', 'arboles.especie_id = especies.id')
+                    ->join('compras', 'arboles.id = compras.arbol_id')
+                    ->where('arboles.id', $id)
+                    ->where('compras.amigo_id', $amigoId) // Verifica que el árbol pertenece al amigo
+                    ->first();
+    }
+
+    public function obtenerHistorialActualizaciones($arbolId)
+    {
+        return $this->db->table('actualizaciones')
+                        ->select('tamanio, foto, fecha_actualizacion')
+                        ->where('arbol_id', $arbolId)
+                        ->orderBy('fecha_actualizacion', 'DESC') // Ordena por las actualizaciones más recientes
+                        ->get()
+                        ->getResultArray();
+    }
+
 
     public function agregarActualizacion($data)
     {

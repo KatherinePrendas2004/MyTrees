@@ -228,7 +228,7 @@ class ArbolesController extends BaseController
     {
         $session = session();
 
-        // Verificar que el usuario esté autenticado y sea del tipo "amigo"
+        // Verificar que el usuario esté autenticado
         if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
             return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
         }
@@ -241,10 +241,72 @@ class ArbolesController extends BaseController
         // Obtener los árboles comprados por el amigo
         $arbolesComprados = $arbolesModel->obtenerArbolesPorAmigo($amigoId);
 
-        // Cargar la vista con los datos
-        return view('compraArboles/mis_arboles', ['arboles_comprados' => $arbolesComprados]);
+        // Obtener el historial de actualizaciones para cada árbol
+        $historiales = [];
+        foreach ($arbolesComprados as $arbol) {
+            $historiales[$arbol['id']] = $arbolesModel->obtenerHistorialActualizaciones($arbol['id']);
+        }
+
+        // Pasar los datos a la vista
+        return view('compraArboles/mis_arboles', [
+            'arboles_comprados' => $arbolesComprados,
+            'historiales' => $historiales
+        ]);
     }
 
+
+
+    public function verDetalles($id)
+    {
+        $session = session();
+
+        // Verificar que el usuario esté autenticado
+        if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
+            return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
+        }
+
+        $arbolesModel = new \App\Models\ArbolesModel();
+        $amigoId = $session->get('user_id');
+
+        // Obtener los detalles del árbol
+        $arbol = $arbolesModel->obtenerDetallesArbol($id, $amigoId);
+
+        if (!$arbol) {
+            return redirect()->to('/mis-arboles')->with('error', 'No se encontró el árbol o no tienes permiso para verlo.');
+        }
+
+        // Cargar la vista de detalles
+        return view('compraArboles/detalles_arbol', ['arbol' => $arbol]);
+    }
+
+    public function historialActualizaciones($arbolId)
+    {
+        $session = session();
+
+        // Verificar si el usuario está autenticado y es del tipo "amigo"
+        if (!$session->get('logged_in') || $session->get('user_role') !== 'amigo') {
+            return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
+        }
+
+        $arbolesModel = new \App\Models\ArbolesModel();
+
+        // Verificar si el árbol pertenece al usuario actual
+        $amigoId = $session->get('user_id');
+        $arbol = $arbolesModel->obtenerDetallesArbol($arbolId, $amigoId);
+
+        if (!$arbol) {
+            return redirect()->to('/mis-arboles')->with('error', 'No tienes permiso para ver este árbol.');
+        }
+
+        // Obtener el historial de actualizaciones
+        $historial = $arbolesModel->obtenerHistorialActualizaciones($arbolId);
+
+        // Cargar la vista con los datos
+        return view('compraArboles/historial_actualizaciones', [
+            'arbol' => $arbol,
+            'historial' => $historial
+        ]);
+    }
 
 }
 

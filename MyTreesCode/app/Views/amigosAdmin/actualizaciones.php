@@ -30,7 +30,7 @@
             <?php if (!empty($actualizaciones)): ?>
                 <?php foreach ($actualizaciones as $actualizacion): ?>
                     <tr>
-                        <td><?= $actualizacion['id_registro'] ?></td>
+                        <td><?= $actualizacion['id'] ?></td>
                         <td><?= $actualizacion['tamanio'] ?></td>
                         <td><?= $actualizacion['fecha_actualizacion'] ?></td>
                         <td>
@@ -42,16 +42,16 @@
                         </td>
                         <td>
                             <!-- Botón para ver detalles -->
-                            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detalleModal-<?= $actualizacion['id_registro'] ?>">Ver Detalles</button>
+                            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detalleModal-<?= $actualizacion['id'] ?>">Ver Detalles</button>
                         </td>
                     </tr>
 
                     <!-- Modal para ver detalles -->
-                    <div class="modal fade" id="detalleModal-<?= $actualizacion['id_registro'] ?>" tabindex="-1" aria-hidden="true">
+                    <div class="modal fade" id="detalleModal-<?= $actualizacion['id'] ?>" tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Detalles de Actualización - Registro ID <?= $actualizacion['id_registro'] ?></h5>
+                                    <h5 class="modal-title">Detalles de Actualización - Registro ID <?= $actualizacion['id'] ?></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                 </div>
                                 <div class="modal-body">
