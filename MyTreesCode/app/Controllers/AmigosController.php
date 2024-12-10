@@ -14,7 +14,7 @@ class AmigosController extends BaseController
         $session = session();
 
         // Verificar autenticación y rol
-        if (!$session->get('logged_in') || $session->get('user_role') !== 'admin') {
+        if (!$session->get('logged_in') || !in_array($session->get('user_role'), ['admin', 'operador'])) {
             return redirect()->to('/usuarios/login')->with('error', 'Acceso denegado');
         }
 
